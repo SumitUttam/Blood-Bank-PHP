@@ -1,3 +1,4 @@
+      <!-- Code to check if the user has logged in or not -->
 <?php 
   session_start(); 
   $type="";
