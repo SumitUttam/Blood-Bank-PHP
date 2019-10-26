@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><?php echo "Login $log";?></title>
+  <title><?php echo "$log Login";?></title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
