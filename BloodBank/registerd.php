@@ -1,3 +1,4 @@
+<!-- A registeration form for donors -->
 <?php 
 	session_start(); 
 	$type="";
