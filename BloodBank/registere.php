@@ -1,3 +1,4 @@
+<!-- A registeration form for employees that can only be registered by a branch Manager -->
 <?php 
 	session_start(); 
 	$type="";
@@ -21,6 +22,7 @@
     <nav>Register Employee</nav>
 </header>
 <?php if ($type=="Manager") : ?>
+	<!-- Only Branch Managers can access the Registeration form -->
 	
   <form method="post" action="registere.php">
   	<?php include('errors.php'); ?>
